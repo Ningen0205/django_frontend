@@ -1,0 +1,6 @@
+<h1>moter</h1>
+
+<form action="{% url 'polls:tmoter' %}" method="post">
+{% csrf_token %}
+<input type="submit" value="Vote">
+</form>
